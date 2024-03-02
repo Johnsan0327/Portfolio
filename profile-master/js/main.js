@@ -145,7 +145,4 @@
 		skillsWayPoint();
 	});
 
-		
-	 
-
 }());

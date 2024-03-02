@@ -75,6 +75,7 @@
 								<ul class="fh5co-social-icons">
 									<li><a href="https://twitter.com/Raptor2k27"><i class="icon-twitter2"></i></a></li>
 									<li><a href="https://www.instagram.com/__j__m__j/"><i class="icon-instagram"></i></a></li>
+									<li><a href="https://github.com/Johnsan0327"><i class="icon-github2"></i></a></li>
 									<li><a href="https://www.linkedin.com/in/marshal-johnsan-20aa312b6/"><i class="icon-linkedin2"></i></a></li>
 									
 								</ul>
@@ -113,6 +114,7 @@
 							<li>
 								<a href="https://twitter.com/Raptor2k27"><i class="icon-twitter2"></i></a></li>
 								<li><a href="https://www.instagram.com/__j__m__j/"><i class="icon-instagram"></i></a></li>
+								<li><a href="https://github.com/Johnsan0327"><i class="icon-github2"></i></a></li>
 									<li><a href="https://www.linkedin.com/in/marshal-johnsan-20aa312b6/"><i class="icon-linkedin2"></i></a></li>
 									
 						</ul>
@@ -408,14 +410,15 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Work</h2>
+					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a href="#"  class="work" style="background-image: url(images/CatchCost2.png);">
 						
-						<div class="desc">
-							<h3>CatchCost - Final Year Project                                            </h3>
+						<div class="desc popupLink" data-popup="popup1">
+							<h3>CatchCost - Final Year Project </h3>
 							<span>Website</span>
 						</div>
 					</a>
@@ -423,8 +426,8 @@
 				
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a href="#" class="work"   style="background-image: url(images/Cannine.jpg);">
-						<div class="desc">
-							<h3>Cannine - Second Year Project</h3>
+						<div class="desc popupLink" data-popup="popup2">
+							<h3>Canine - Second Year Project</h3>
 							<span>Website</span>
 						</div>
 					</a>
@@ -432,7 +435,7 @@
 				
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a href="#" class="work"  style="background-image: url(images/FuelInfo.jpg);">
-						<div class="desc">
+						<div class="desc popupLink" data-popup="popup3">
 							<h3>Fuel Info Management System</h3>
 							<span>Website</span>
 						</div>
@@ -440,14 +443,98 @@
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
 					<a href="#" class="work"style="background-image: url(images/sludi.png);">
-						<div class="desc">
+						<div class="desc popupLink" data-popup="popup4">
 							<h3>SLUDI - ICTA project</h3>
 							<span>Digital ID</span>
 						</div>
 					</a>
 				</div>
 				
-				
+				<div id="popup1" class="popup">
+					<div class="popup-content">
+					  <h2>CatchCost</h2>
+					  <h3>ReactJs, Python, AWS, Nodejs, ML</h3>
+					  <ul>
+						<li>
+							Predicting the fish price using the weather dataset.
+						</li>
+						<li>
+							The model was made with some algorithms.
+						</li>
+						<li>
+							The predicted fish price according to the name and date it is been 
+					   saved in the AWS dynamoDB.
+						</li>
+					  </ul>
+					  <button class="closeButton" onclick="closePopup('popup1')">Close</button>
+					</div>
+				  </div>
+				  <div id="popup2" class="popup">
+					<div class="popup-content">
+					    <h2>Canine</h2>
+					  <h3>ReactJs, Image Recognition, AWS, ML, Flask</h3>
+					  <ul>
+						<li>
+							Predicting the dog breed using the image entered.
+						</li>
+						<li>
+							Predicting the dog disease using symptoms.
+						</li>
+						<li>
+							Developing the front end using react.
+						</li>
+						<li>
+							Deploying using AWS S3Bucket
+						</li>
+					  </ul>
+					  <button class="closeButton" onclick="closePopup('popup2')">Close</button>
+					</div>
+				  </div>
+				  <div id="popup3" class="popup">
+					<div class="popup-content">
+						<h2>Fuel Information Management System</h2>
+						<h3>ReactJs, Java, Python, MySQL</h3>
+						<ul>
+						  <li>
+							Creating Front-end web application using React.
+						  </li>
+						  <li>
+							Implementing the functions of the application.
+						  </li>
+						  <li>
+							Backend implementation using java.
+						  </li>
+						  <li>
+							MYSQL to maintained the database.
+						  </li>
+						  <li>
+							Normalizing the data given by Lanka Petroleum Cooperation and adding them to the Database
+						  </li>
+						</ul>
+					  <button class="closeButton" onclick="closePopup('popup3')">Close</button>
+					</div>
+				  </div>
+				  <div id="popup4" class="popup">
+					<div class="popup-content">
+					    <h2>SLUDI</h2>
+					  <h3>Java, MYSQL, Tools for BIO Metrics detection </h3>
+					  <ul>
+						<li>
+							Installing the app in testing laptops and UAT testing
+						</li>
+						<li>
+							Reporting the error occurred while installing and testing
+						</li>
+						<li>
+							Data entering.
+						</li>
+						<li>
+							Registering citizens and testing the production environment.
+						</li>
+					  </ul>
+					  <button class="closeButton" onclick="closePopup('popup4')">Close</button>
+					</div>
+				  </div>
 				
 			</div>
 		</div>
@@ -465,46 +552,46 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="https://www.instagram.com/p/C1tbz-xC0xEJWbEqdXk0YxOfU33h0IYEY-48cg0/?img_index=1" class="blog-bg" style="background-image: url(images/johnsan1.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/johnsan1.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">JAN. 5th 2024</span>
-							<h3><a href="https://www.instagram.com/p/C1tbz-xC0xEJWbEqdXk0YxOfU33h0IYEY-48cg0/?img_index=1">Smile When Happy</a></h3>
+							<h3><a href="#">Smile When Happy</a></h3>
 							<p>This smile causes love
 								Smile kills😁.....</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>249</li>
 								<li><i class="icon-eye2"></i>300</li>
-								<li><a href="https://www.instagram.com/p/C1tbz-xC0xEJWbEqdXk0YxOfU33h0IYEY-48cg0/?img_index=1">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="https://www.instagram.com/p/CosgF6dKL0TuokvQ0scHoh8qlUEgha39Nu2GYs0/?img_index=1" class="blog-bg" style="background-image: url(images/johnsan3.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/johnsan3.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">FEB. 16th 2023</span>
-							<h3><a href="https://www.instagram.com/p/CosgF6dKL0TuokvQ0scHoh8qlUEgha39Nu2GYs0/?img_index=1">My Passion in one Picture</a></h3>
+							<h3><a href="#">My Passion in one Picture</a></h3>
 							<p>Talk with your feet, play with your heart 😇⚽.....</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>254</li>
 								<li><i class="icon-eye2"></i>310</li>
-								<li><a href="https://www.instagram.com/p/CosgF6dKL0TuokvQ0scHoh8qlUEgha39Nu2GYs0/?img_index=1">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="https://www.instagram.com/p/B8kYvSiFK8aCyFKYOCHHxeC7Fd4dm8ZrG0MDkc0/" class="blog-bg" style="background-image: url(images/johnsan.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url(images/johnsan.jpg);"></a>
 						<div class="blog-text">
 							<span class="posted_on">FEB. 15th 2020</span>
-							<h3><a href="https://www.instagram.com/p/B8kYvSiFK8aCyFKYOCHHxeC7Fd4dm8ZrG0MDkc0/">My Photography Love</a></h3>
+							<h3><a href="#">My Photography Love</a></h3>
 							<p>I get ignored so much my name should be terms & conditions....</p>
 							<ul class="stuff">
 								<li><i class="icon-heart2"></i>254</li>
 								<li><i class="icon-eye2"></i>300</li>
-								<li><a href="https://www.instagram.com/p/B8kYvSiFK8aCyFKYOCHHxeC7Fd4dm8ZrG0MDkc0/">Read More<i class="icon-arrow-right22"></i></a></li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
 							</ul>
 						</div> 
 					</div>
@@ -585,7 +672,25 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	
+	<script>	
+		// Function to open the popup
+   function openPopup(popupId) {
+	   document.getElementById(popupId).style.display = 'block';
+	 }
+	 
+	 // Function to close the popup
+	 function closePopup(popupId) {
+	   document.getElementById(popupId).style.display = 'none';
+	 }
+	 
+	 // Add event listener to each anchor link
+	 document.querySelectorAll('.popupLink').forEach(function(link) {
+	   link.addEventListener('click', function(event) {
+		 event.preventDefault(); // Prevent default anchor behavior
+		 var popupId = this.getAttribute('data-popup');
+		 openPopup(popupId); // Open the corresponding popup
+	   });
+	 });</script>
 	</body>
 </html>
 
