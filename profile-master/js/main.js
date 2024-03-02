@@ -144,5 +144,5 @@
 		// pieChart();
 		skillsWayPoint();
 	});
-
+	
 }());
